@@ -11562,8 +11562,8 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
-  background-position: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead2.jpeg");
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -11573,7 +11573,8 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: #dcdcdc;
+  /*background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));*/
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -11697,4 +11698,30 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+
+/*
+ * Custom
+ */
+.training-hours table {
+  margin-bottom: 2.5em;
+  color: #bdbdbd;
+}
+
+.training-hours table {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-collapse: collapse;
+  border-color: #606060;
+}
+
+.training-hours table th {
+  text-align: right;
+  width: 50%;
+}
+
+.training-hours table td {
+  text-align: left;
+  width: 50%;
 }
